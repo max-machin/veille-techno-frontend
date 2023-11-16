@@ -1,6 +1,13 @@
-#  veille-techno-frontend
+# Veille technologique frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+<table>
+<tr>
+<td>
+  Application KANBAN board pour l'organisation et la gestion de tâche.
+  Technologie : VueJs 
+</td>
+</tr>
+</table>
 
 ## Recommended IDE Setup
 
