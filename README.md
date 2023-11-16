@@ -14,7 +14,7 @@
 
 - [Introduction](#introduction)
 - [Utilisation du projet](#cahierdescharges)
-- [VueJs](#VueJs)
+- [Annexes](#Annexes)
 
 ## Introduction
 
@@ -33,6 +33,7 @@ Document associé au choix de Vuejs :
 ### Configuration du projet ( installation des modules requis )
 
 ```sh
+cd/app
 npm install
 ```
 
@@ -48,15 +49,13 @@ npm run dev
 npm run build
 ```
 
-## Recommended IDE Setup
+## Annexes
+
+### Configuration IDE recommandé
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Customize configuration
+## Configuration customisée
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-
-
-
-# veille-techno-frontend
