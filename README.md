@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
-  Application KANBAN board pour l'organisation et la gestion de tâche.
+  Application KANBAN board pour l'organisation et la gestion de tâche. Choix entre différentes technos ( Angular, Svelte, VueJs ) afin d'affiner les connaissances
   <br />
   Technologie : VueJs 
 </td>
