@@ -4,6 +4,7 @@
 <tr>
 <td>
   Application KANBAN board pour l'organisation et la gestion de tâche.
+  <br />
   Technologie : VueJs 
 </td>
 </tr>
