@@ -33,7 +33,7 @@ Document associé au choix de Vuejs :
 ### Configuration du projet ( installation des modules requis )
 
 ```sh
-cd/app
+cd app
 npm install
 ```
 
