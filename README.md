@@ -28,6 +28,26 @@ application de Kanban Board.
 Document associé au choix de Vuejs : 
 - rapport-veille-front.pdf
 
+## Utilisation du projet
+
+### Configuration du projet ( installation des modules requis )
+
+```sh
+npm install
+```
+
+### Compilation et transfert à chaud pour le développement
+
+```sh
+npm run dev
+```
+
+### Compilation et minimisation pour la production
+
+```sh
+npm run build
+```
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
@@ -36,26 +56,6 @@ Document associé au choix de Vuejs :
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-
-Home page
 
 
 
