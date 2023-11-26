@@ -14,11 +14,41 @@ export const useBoardStore = defineStore('board', () => {
         {'id': 3, 'title': "Terminé", 'isSortOpen': false, 'isFilterOpen': false,'sortBy': 0, task: []},
         {'id': 4, 'title': "Pense bête", 'isSortOpen': false, 'isFilterOpen': false, 'sortBy': 0, task: []}
     ])
+
     const count = ref(0)
     const doubleCount = computed(() => count.value * 2)
     function increment() {
         count.value++
     }
 
-  return { count, doubleCount, increment, lanes }
-})
+    var boardBackgroundColor = ref(null)
+
+    function setboardBackgroundColor(value){
+        console.log(value)
+        boardBackgroundColor.value = value
+    }
+
+    var boardBackgroundImage = ref(null)
+
+    function setboardBackgroundImage(value){
+        boardBackgroundImage.value = value
+    }
+
+    const title = ref("")
+
+    return { 
+        count, 
+        doubleCount, 
+        increment, 
+        lanes, 
+        boardBackgroundColor,
+        setboardBackgroundColor,
+        boardBackgroundImage , 
+        setboardBackgroundImage,
+        title
+    }
+    }, 
+    {
+        persist: true
+    }
+)

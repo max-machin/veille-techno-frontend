@@ -1,7 +1,11 @@
 import './assets/main.css'
 
 import { createApp } from 'vue'
+// Import de l'instance Pinia : Store
 import { createPinia } from 'pinia'
+
+// Import du plugin de persistance de données
+import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -21,7 +25,10 @@ import router from './router'
 
 const app = createApp(App)
 
-app.use(createPinia())
+const pinia = createPinia();
+pinia.use(piniaPluginPersistedstate)
+
+app.use(pinia)
 app.use(router)
 .component('font-awesome-icon', FontAwesomeIcon)
 app.mount('#app')
